@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '2.5.3'
+ruby '>= 2.5.3'
 
 gem 'activeadmin', '1.0.0'
 gem 'delayed_job_active_record', '~> 4.1.2'
@@ -42,3 +42,5 @@ group :production do
   gem 'rails_12factor'
   gem 'rails_serve_static_assets'
 end
+gem "mimemagic", "= 0.3.9"
+gem "ffi", "~> 1.16.0"
