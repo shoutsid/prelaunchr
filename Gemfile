@@ -6,7 +6,7 @@ gem 'activeadmin', '1.0.0'
 gem 'delayed_job_active_record', '~> 4.1.2'
 gem 'devise'
 gem 'pg'
-gem 'rails', '~> 4.2'
+gem 'rails', '4.2.11.3'
 gem 'unicorn'
 
 
@@ -44,3 +44,6 @@ group :production do
 end
 gem "mimemagic", "= 0.3.9"
 gem "ffi", "~> 1.16.0"
+gem "responders", "~> 2.0"
+gem "jquery-ui-rails", "~> 6.0"
+gem "loofah", "~> 2.2.3"
