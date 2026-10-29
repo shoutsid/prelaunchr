@@ -6,7 +6,7 @@ gem 'activeadmin', '1.0.0'
 gem 'delayed_job_active_record', '~> 4.1.2'
 gem "devise", "~> 4.0"
 gem "pg", "~> 0.18"
-gem 'rails', '5.0.7.2'
+gem 'rails', '5.1.7'
 gem 'unicorn'
 
 
@@ -23,7 +23,7 @@ group :development, :test do
   gem "rspec-rails", "~> 3.5.0"
   gem "rspec-mocks", "~> 3.5.0"
   gem 'test-unit', '~> 3.0'
-  gem "dotenv-rails"
+  gem "dotenv-rails", "~> 2.8.1"
   gem 'rails-controller-testing'
 end
 
