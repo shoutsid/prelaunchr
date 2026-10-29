@@ -20,7 +20,7 @@ group :assets do
 end
 
 group :development, :test do
-  gem 'pry'
+  gem "pry", "~> 0.14"
   gem "rspec-rails", "~> 6.1"
   gem "rspec-mocks", "~> 3.13"
   gem 'test-unit', '~> 3.0'
