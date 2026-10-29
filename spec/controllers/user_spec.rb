@@ -132,7 +132,7 @@ describe UsersController, type: :controller do
       it 'redirects to landing page when ip has already appeared 3 times' do
         post :create, params: { user: { email: generate_email } }
         post :create, params: { user: { email: generate_email } }
-        post :create, user: { email: generate_email } # 4th time
+        post :create, params: { user: { email: generate_email } } # 4th time
 
         expect(response).to redirect_to root_path
       end
