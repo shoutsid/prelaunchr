@@ -7,7 +7,7 @@ gem "ransack", "~> 4.1.0"
 gem "delayed_job_active_record", "~> 4.1.11"
 gem "devise", "~> 4.0"
 gem "pg", "~> 1.5.0"
-gem 'rails', '7.2.4'
+gem 'rails', '8.0.5.1'
 gem 'unicorn'
 
 
@@ -20,7 +20,7 @@ group :assets do
 end
 
 group :development, :test do
-  gem 'pry'
+  gem "pry", "~> 0.14"
   gem "rspec-rails", "~> 6.1"
   gem "rspec-mocks", "~> 3.13"
   gem 'test-unit', '~> 3.0'
