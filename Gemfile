@@ -4,9 +4,9 @@ ruby '>= 2.5.3'
 
 gem 'activeadmin', '1.0.0'
 gem 'delayed_job_active_record', '~> 4.1.2'
-gem 'devise'
-gem 'pg'
-gem 'rails', '4.2.11.3'
+gem "devise", "~> 4.0"
+gem "pg", "~> 0.18"
+gem 'rails', '5.0.7.2'
 gem 'unicorn'
 
 
@@ -14,16 +14,17 @@ gem 'unicorn'
 # in production environments by default.
 group :assets do
   gem 'coffee-rails', '~> 4.2.2'
-  gem 'sass-rails',   '~> 5.0.7'
+  gem "sass-rails", "= 5.0.7"
   gem 'uglifier'
 end
 
 group :development, :test do
   gem 'pry'
-  gem 'rspec-rails', '3.4.2'
-  gem 'rspec-mocks', '3.4.1'
+  gem "rspec-rails", "~> 3.5.0"
+  gem "rspec-mocks", "~> 3.5.0"
   gem 'test-unit', '~> 3.0'
   gem "dotenv-rails"
+  gem 'rails-controller-testing'
 end
 
 # To use ActiveModel has_secure_password
@@ -47,3 +48,5 @@ gem "ffi", "~> 1.16.0"
 gem "responders", "~> 2.0"
 gem "jquery-ui-rails", "~> 6.0"
 gem "loofah", "~> 2.2.3"
+gem "execjs", "~> 2.8.0"
+gem "minitest", "~> 5.14.4"

@@ -1,7 +1,7 @@
 class ApplicationController < ActionController::Base
-  protect_from_forgery
+  protect_from_forgery prepend: true
 
-  before_filter :ref_to_cookie
+  before_action :ref_to_cookie
 
   def mobile_device?
     if session[:mobile_param]
@@ -24,6 +24,6 @@ class ApplicationController < ActionController::Base
 
     user_agent = request.env['HTTP_USER_AGENT']
     return unless user_agent && !user_agent.include?('facebookexternalhit/1.1')
-    redirect_to proc { url_for(params.except(:ref)) }
+    redirect_to proc { url_for(params.except(:ref).permit!) }
   end
 end
