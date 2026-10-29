@@ -50,3 +50,5 @@ gem "jquery-ui-rails", "~> 6.0"
 gem "loofah", "~> 2.2.3"
 gem "execjs", "~> 2.8.0"
 gem "minitest", "~> 5.14.4"
+gem 'bootsnap', "= 1.4.5"
+
