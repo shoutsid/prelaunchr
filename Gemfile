@@ -3,10 +3,11 @@ source 'https://rubygems.org'
 ruby '>= 2.5.3'
 
 gem "activeadmin", "~> 4.0.0.beta5"
+gem "ransack", "~> 4.1.0"
 gem "delayed_job_active_record", "~> 4.1.11"
 gem "devise", "~> 4.0"
 gem "pg", "~> 1.5.0"
-gem 'rails', '7.1.6'
+gem 'rails', '7.2.4'
 gem 'unicorn'
 
 
@@ -50,7 +51,7 @@ gem "jquery-ui-rails", "~> 6.0"
 gem "loofah", "~> 2.22"
 gem "execjs", "~> 2.8.0"
 gem "minitest", "~> 5.25.0"
-gem "bootsnap", "~> 1.4.9"
+gem "bootsnap", "~> 1.26"
 
 gem "thor", "~> 1.2.0"
 gem "sprockets-rails", "~> 3.4.0"
@@ -61,3 +62,4 @@ gem "nokogiri", "~> 1.15.7"
 gem "rake", ">= 12.2"
 gem "connection_pool", "~> 2.5"
 gem "rdoc", "~> 6.3.0"
+gem "sass", "~> 3.7"
