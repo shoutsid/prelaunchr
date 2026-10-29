@@ -1,7 +1,7 @@
 class ApplicationController < ActionController::Base
-  protect_from_forgery
+  protect_from_forgery, prepend: true
 
-  before_filter :ref_to_cookie
+  before_action :ref_to_cookie
 
   def mobile_device?
     if session[:mobile_param]
