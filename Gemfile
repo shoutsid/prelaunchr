@@ -5,8 +5,8 @@ ruby '>= 2.5.3'
 gem "activeadmin", "~> 2.9.0"
 gem "delayed_job_active_record", "~> 4.1.11"
 gem "devise", "~> 4.0"
-gem "pg", "~> 0.18"
-gem 'rails', '6.0.6.1'
+gem "pg", "~> 1.5.0"
+gem 'rails', '6.1.7.10'
 gem 'unicorn'
 
 
@@ -58,3 +58,4 @@ gem "globalid", "~> 1.1.0"
 gem "sprockets", "~> 3.7"
 gem "zeitwerk", "~> 2.6.0"
 gem "nokogiri", "~> 1.12.0"
+gem "rake", ">= 12.2"
