@@ -2,11 +2,11 @@ source 'https://rubygems.org'
 
 ruby '>= 2.5.3'
 
-gem 'activeadmin', '1.0.0'
-gem 'delayed_job_active_record', '~> 4.1.2'
+gem "activeadmin", "~> 2.9.0"
+gem "delayed_job_active_record", "~> 4.1.11"
 gem "devise", "~> 4.0"
 gem "pg", "~> 0.18"
-gem 'rails', '5.1.7'
+gem 'rails', '5.2.8.1'
 gem 'unicorn'
 
 
@@ -52,3 +52,4 @@ gem "execjs", "~> 2.8.0"
 gem "minitest", "~> 5.14.4"
 gem 'bootsnap', "= 1.4.5"
 
+gem "thor", "~> 1.2.0"
