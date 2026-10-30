@@ -8,6 +8,7 @@ gem "delayed_job_active_record", "~> 4.1.11"
 gem "devise", "~> 4.0"
 gem "pg", "~> 1.5.0"
 gem 'rails', '8.1.0'
+gem 'json', '~> 2.7'
 gem 'unicorn'
 
 
