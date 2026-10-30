@@ -7,7 +7,7 @@ gem "ransack", "~> 4.1.0"
 gem "delayed_job_active_record", "~> 4.1.11"
 gem "devise", "~> 4.0"
 gem "pg", "~> 1.5.0"
-gem 'rails', '8.1.0'
+gem 'rails', '8.1.4'
 gem 'json', '~> 2.7'
 gem 'unicorn'
 
@@ -64,3 +64,5 @@ gem "rake", ">= 12.2"
 gem "connection_pool", "~> 2.5"
 gem "rdoc", "~> 6.3.0"
 gem "sass", "~> 3.7"
+gem "raindrops", "~> 0.20.0"
+gem "kgio", "~> 2.11.0"
